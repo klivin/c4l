@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0709D01375F99400952728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0709CF1375F99400952728 /* UIKit.framework */; };
+		0A0709D21375F99400952728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0709D11375F99400952728 /* Foundation.framework */; };
+		0A0709D41375F99400952728 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0709D31375F99400952728 /* CoreGraphics.framework */; };
+		0A0709DA1375F99400952728 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A0709D81375F99400952728 /* InfoPlist.strings */; };
+		0A0709DD1375F99400952728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0709DC1375F99400952728 /* main.m */; };
+		0A0709E01375F99400952728 /* SkylineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0709DF1375F99400952728 /* SkylineAppDelegate.m */; };
+		0A0709E31375F99400952728 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0709E11375F99400952728 /* MainWindow.xib */; };
+		0A0709E61375F99400952728 /* SkylineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0709E51375F99400952728 /* SkylineViewController.m */; };
+		0A0709E91375F99400952728 /* SkylineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0709E71375F99400952728 /* SkylineViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0709CB1375F99400952728 /* Skyline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skyline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0709CF1375F99400952728 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A0709D11375F99400952728 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A0709D31375F99400952728 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A0709D71375F99400952728 /* Skyline-Info.plist */ = {isa = PBXFileReference; path = "Skyline-Info.plist"; sourceTree = "<group>"; };
+		0A0709D91375F99400952728 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A0709DB1375F99400952728 /* Skyline-Prefix.pch */ = {isa = PBXFileReference; path = "Skyline-Prefix.pch"; sourceTree = "<group>"; };
+		0A0709DC1375F99400952728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A0709DE1375F99400952728 /* SkylineAppDelegate.h */ = {isa = PBXFileReference; path = SkylineAppDelegate.h; sourceTree = "<group>"; };
+		0A0709DF1375F99400952728 /* SkylineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkylineAppDelegate.m; sourceTree = "<group>"; };
+		0A0709E21375F99400952728 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0A0709E41375F99400952728 /* SkylineViewController.h */ = {isa = PBXFileReference; path = SkylineViewController.h; sourceTree = "<group>"; };
+		0A0709E51375F99400952728 /* SkylineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkylineViewController.m; sourceTree = "<group>"; };
+		0A0709E81375F99400952728 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SkylineViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0709C81375F99400952728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0709D01375F99400952728 /* UIKit.framework in Frameworks */,
+				0A0709D21375F99400952728 /* Foundation.framework in Frameworks */,
+				0A0709D41375F99400952728 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0709C01375F99400952728 = {
+			isa = PBXGroup;
+			children = (
+				0A0709D51375F99400952728 /* Skyline */,
+				0A0709CE1375F99400952728 /* Frameworks */,
+				0A0709CC1375F99400952728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0709CC1375F99400952728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0709CB1375F99400952728 /* Skyline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A0709CE1375F99400952728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0709CF1375F99400952728 /* UIKit.framework */,
+				0A0709D11375F99400952728 /* Foundation.framework */,
+				0A0709D31375F99400952728 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A0709D51375F99400952728 /* Skyline */ = {
+			isa = PBXGroup;
+			children = (
+				0A0709DE1375F99400952728 /* SkylineAppDelegate.h */,
+				0A0709DF1375F99400952728 /* SkylineAppDelegate.m */,
+				0A0709E11375F99400952728 /* MainWindow.xib */,
+				0A0709E41375F99400952728 /* SkylineViewController.h */,
+				0A0709E51375F99400952728 /* SkylineViewController.m */,
+				0A0709E71375F99400952728 /* SkylineViewController.xib */,
+				0A0709D61375F99400952728 /* Supporting Files */,
+			);
+			path = Skyline;
+			sourceTree = "<group>";
+		};
+		0A0709D61375F99400952728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0709D71375F99400952728 /* Skyline-Info.plist */,
+				0A0709D81375F99400952728 /* InfoPlist.strings */,
+				0A0709DB1375F99400952728 /* Skyline-Prefix.pch */,
+				0A0709DC1375F99400952728 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A0709CA1375F99400952728 /* Skyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0709EC1375F99400952728 /* Build configuration list for PBXNativeTarget "Skyline" */;
+			buildPhases = (
+				0A0709C71375F99400952728 /* Sources */,
+				0A0709C81375F99400952728 /* Frameworks */,
+				0A0709C91375F99400952728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skyline;
+			productName = Skyline;
+			productReference = 0A0709CB1375F99400952728 /* Skyline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A0709C21375F99400952728 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0A0709C51375F99400952728 /* Build configuration list for PBXProject "Skyline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A0709C01375F99400952728;
+			productRefGroup = 0A0709CC1375F99400952728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A0709CA1375F99400952728 /* Skyline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0709C91375F99400952728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0709DA1375F99400952728 /* InfoPlist.strings in Resources */,
+				0A0709E31375F99400952728 /* MainWindow.xib in Resources */,
+				0A0709E91375F99400952728 /* SkylineViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0709C71375F99400952728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0709DD1375F99400952728 /* main.m in Sources */,
+				0A0709E01375F99400952728 /* SkylineAppDelegate.m in Sources */,
+				0A0709E61375F99400952728 /* SkylineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A0709D81375F99400952728 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0709D91375F99400952728 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A0709E11375F99400952728 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0709E21375F99400952728 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0A0709E71375F99400952728 /* SkylineViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0709E81375F99400952728 /* en */,
+			);
+			name = SkylineViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A0709EA1375F99400952728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A0709EB1375F99400952728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0A0709ED1375F99400952728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skyline/Skyline-Prefix.pch";
+				INFOPLIST_FILE = "Skyline/Skyline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A0709EE1375F99400952728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skyline/Skyline-Prefix.pch";
+				INFOPLIST_FILE = "Skyline/Skyline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0709C51375F99400952728 /* Build configuration list for PBXProject "Skyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0709EA1375F99400952728 /* Debug */,
+				0A0709EB1375F99400952728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0709EC1375F99400952728 /* Build configuration list for PBXNativeTarget "Skyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0709ED1375F99400952728 /* Debug */,
+				0A0709EE1375F99400952728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A0709C21375F99400952728 /* Project object */;
+}
